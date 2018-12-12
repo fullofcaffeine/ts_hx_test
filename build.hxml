@@ -1,0 +1,6 @@
+-cp hxgenjs
+-cp haxe_src
+-js src/haxe/main.js
+--macro "include('haxeintegration')"
+--macro genjs.Generator.use()
+-D tsextern
